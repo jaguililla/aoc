@@ -1,2 +1,3 @@
-# aoc
-Advent of Code
+
+# AoC
+[Advent of Code](https://adventofcode.com)
