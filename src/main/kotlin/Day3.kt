@@ -28,8 +28,13 @@ package com.github.jaguililla.aoc23
  * Of course, the actual engine schematic is much larger. What is the sum of all the part numbers in
  * the engine schematic?
  *
+ * @param input Puzzle data.
  * @return Calculated result.
  */
-fun day3(): Int {
+fun day3(input: String): Int {
     return 0
 }
+
+data class EngineMap(val coords: Pair<Int, Int>)
+data class EnginePart(val coords: Pair<Int, Int>)
+data class EngineToken(val coords: Pair<Int, Int>)
